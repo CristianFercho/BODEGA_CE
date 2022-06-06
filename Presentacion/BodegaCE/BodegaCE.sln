@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BodegaCE", "BodegaCE\BodegaCE.csproj", "{C99D6CE0-FA45-47C0-BA7A-8F20FD5706A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BodegaCE", "BodegaCE\BodegaCE.csproj", "{C99D6CE0-FA45-47C0-BA7A-8F20FD5706A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{02B4888D-B490-4A08-B978-76EA93721532}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Datos", "Datos", "{BA61FA4B-8493-4E08-A6F4-066C3E9330A1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{EC4B2386-5685-454D-9396-271F18FE7D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistencia", "Persistencia\Persistencia.csproj", "{4A642747-65E9-4800-A034-F7D2B9E8C395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NegocioBM", "NegocioBM\NegocioBM.csproj", "{EE9C0469-43CC-491A-8339-B69BC994BDB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DominioTO", "DominioTO\DominioTO.csproj", "{11BA30BE-E4A2-4806-893F-7876ADB62848}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,26 @@ Global
 		{C99D6CE0-FA45-47C0-BA7A-8F20FD5706A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C99D6CE0-FA45-47C0-BA7A-8F20FD5706A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C99D6CE0-FA45-47C0-BA7A-8F20FD5706A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A642747-65E9-4800-A034-F7D2B9E8C395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A642747-65E9-4800-A034-F7D2B9E8C395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A642747-65E9-4800-A034-F7D2B9E8C395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A642747-65E9-4800-A034-F7D2B9E8C395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE9C0469-43CC-491A-8339-B69BC994BDB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE9C0469-43CC-491A-8339-B69BC994BDB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE9C0469-43CC-491A-8339-B69BC994BDB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE9C0469-43CC-491A-8339-B69BC994BDB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BA30BE-E4A2-4806-893F-7876ADB62848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BA30BE-E4A2-4806-893F-7876ADB62848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BA30BE-E4A2-4806-893F-7876ADB62848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BA30BE-E4A2-4806-893F-7876ADB62848}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A642747-65E9-4800-A034-F7D2B9E8C395} = {BA61FA4B-8493-4E08-A6F4-066C3E9330A1}
+		{EE9C0469-43CC-491A-8339-B69BC994BDB7} = {02B4888D-B490-4A08-B978-76EA93721532}
+		{11BA30BE-E4A2-4806-893F-7876ADB62848} = {EC4B2386-5685-454D-9396-271F18FE7D70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AFF1937-1EED-4789-AB34-4BD877C7E7FF}
