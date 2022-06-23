@@ -1,6 +1,7 @@
 ﻿namespace Persistencia
 {
     using DominioTO;
+    using DominioTO.Producto;
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
     public class AplicacionDbContext : IdentityDbContext
@@ -12,7 +13,7 @@
         }
 
         public DbSet<Bodega> bodega { get; set; }
-        public DbSet<Producto> producto { get; set; }
+        public DbSet<ProductoTO> producto { get; set; }
         public DbSet<MovimientoEntrada> movimientoEntrada { get; set; }
         public DbSet<Proveedor> proveedor { get; set; }
         public DbSet<Cliente> cliente { get; set; }

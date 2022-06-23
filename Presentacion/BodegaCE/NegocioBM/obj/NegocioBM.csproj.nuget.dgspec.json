@@ -4,14 +4,14 @@
     "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\NegocioBM.csproj": {}
   },
   "projects": {
-    "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\NegocioBM.csproj": {
+    "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\DominioTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\NegocioBM.csproj",
-        "projectName": "NegocioBM",
-        "projectPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\NegocioBM.csproj",
+        "projectUniqueName": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\DominioTO.csproj",
+        "projectName": "DominioTO",
+        "projectPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\DominioTO.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\obj\\",
+        "outputPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,147 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\NegocioBM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\NegocioBM.csproj",
+        "projectName": "NegocioBM",
+        "projectPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\NegocioBM.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\NegocioBM\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\DominioTO.csproj": {
+                "projectPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\DominioTO.csproj"
+              },
+              "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\Persistencia\\Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\Persistencia\\Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\Persistencia\\Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\DominioTO.csproj": {
+                "projectPath": "H:\\DESARROLLO PROYECTOS\\APRENDIZAJE\\.NET CORE\\BODEGA\\BODEGA_CE\\Presentacion\\BodegaCE\\DominioTO\\DominioTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

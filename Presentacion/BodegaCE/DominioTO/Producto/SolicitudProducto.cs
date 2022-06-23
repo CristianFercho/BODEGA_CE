@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DominioTO
+namespace DominioTO.Producto
 {
-    public class Producto
+    public class SolicitudProducto
     {
         public Guid ProductoId { get; set; }
         public string Descripcion { get; set; }
-        public ICollection<MovimientoEntrada> bodegaLink { get; set; }
+        public bool EstadoProducto { get; set; }
+        public DateTime FechaRegistro { get; set; }
+        public DateTime FechaActualizacion { get; set; }
     }
 }
